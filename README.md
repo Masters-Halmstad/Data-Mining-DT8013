@@ -171,6 +171,7 @@ Both baselines are equally accurate. Casual demand is harder to predict, and kNN
 **Limitations:** we count rides, not revenue; "rain" mixes light rain, snow and storms; and the data covers only one city over two years.
 
 **Conclusion:** bike demand stays low after bad weather ends. Commuters recover in about 3 hours, leisure riders in 7–9 hours, and 39 % of the weather loss happens after the rain.
+![alt text](image.png)
 
 ### References
 1. H. Fanaee-T, *Bike Sharing Dataset*, UCI Machine Learning Repository, 2013. doi:10.24432/C5W894
