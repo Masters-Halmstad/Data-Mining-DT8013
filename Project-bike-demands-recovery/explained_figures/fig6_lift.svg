@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="356" viewBox="0 0 800 356" role="img" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title>Lift chart</title>
+<rect width="800" height="356" rx="12" fill="#fcfcfb"/>
+<text x="26" y="32" font-size="16" fill="#2b2a27" text-anchor="start" font-weight="600" >Second method: lift of {hours after rain} ⇒ {demand is low}</text>
+<text x="26" y="52" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >low = more than 30 % below normal · lift 1 = no effect · lift = confidence ÷ base rate (8.7 % registered, 27.4 % casual)</text>
+<line x1="60" y1="276.0" x2="770" y2="276.0" stroke="#e5e4e0" stroke-width="1"/>
+<text x="52" y="280.0" font-size="11" fill="#8a877f" text-anchor="end" font-weight="400" >0</text>
+<line x1="60" y1="241.66666666666669" x2="770" y2="241.66666666666669" stroke="#55534e" stroke-width="1.2"/>
+<text x="52" y="245.66666666666669" font-size="11" fill="#8a877f" text-anchor="end" font-weight="400" >1</text>
+<line x1="60" y1="207.33333333333334" x2="770" y2="207.33333333333334" stroke="#e5e4e0" stroke-width="1"/>
+<text x="52" y="211.33333333333334" font-size="11" fill="#8a877f" text-anchor="end" font-weight="400" >2</text>
+<line x1="60" y1="173.0" x2="770" y2="173.0" stroke="#e5e4e0" stroke-width="1"/>
+<text x="52" y="177.0" font-size="11" fill="#8a877f" text-anchor="end" font-weight="400" >3</text>
+<line x1="60" y1="138.66666666666669" x2="770" y2="138.66666666666669" stroke="#e5e4e0" stroke-width="1"/>
+<text x="52" y="142.66666666666669" font-size="11" fill="#8a877f" text-anchor="end" font-weight="400" >4</text>
+<line x1="60" y1="104.33333333333331" x2="770" y2="104.33333333333331" stroke="#e5e4e0" stroke-width="1"/>
+<text x="52" y="108.33333333333331" font-size="11" fill="#8a877f" text-anchor="end" font-weight="400" >5</text>
+<line x1="60" y1="70.0" x2="770" y2="70.0" stroke="#e5e4e0" stroke-width="1"/>
+<text x="52" y="74.0" font-size="11" fill="#8a877f" text-anchor="end" font-weight="400" >6</text>
+<text x="766" y="235.66666666666669" font-size="11" fill="#55534e" text-anchor="end" font-weight="400" >lift = 1 (no effect)</text>
+<path d="M73.2,276.0 V82.3 Q73.2,79.3 76.2,79.3 H100.4 Q103.4,79.3 103.4,82.3 V276.0 Z" fill="#2a78d6"/>
+<path d="M105.4,276.0 V191.1 Q105.4,188.1 108.4,188.1 H132.6 Q135.6,188.1 135.6,191.1 V276.0 Z" fill="#eb6834"/>
+<text x="104.375" y="294" font-size="11" fill="#55534e" text-anchor="middle" font-weight="400" >0 h</text>
+<path d="M161.9,276.0 V159.2 Q161.9,156.2 164.9,156.2 H189.1 Q192.1,156.2 192.1,159.2 V276.0 Z" fill="#2a78d6"/>
+<path d="M194.1,276.0 V203.5 Q194.1,200.5 197.1,200.5 H221.3 Q224.3,200.5 224.3,203.5 V276.0 Z" fill="#eb6834"/>
+<text x="193.125" y="294" font-size="11" fill="#55534e" text-anchor="middle" font-weight="400" >1 h</text>
+<path d="M250.7,276.0 V181.1 Q250.7,178.1 253.7,178.1 H277.9 Q280.9,178.1 280.9,181.1 V276.0 Z" fill="#2a78d6"/>
+<path d="M282.9,276.0 V206.6 Q282.9,203.6 285.9,203.6 H310.1 Q313.1,203.6 313.1,206.6 V276.0 Z" fill="#eb6834"/>
+<text x="281.875" y="294" font-size="11" fill="#55534e" text-anchor="middle" font-weight="400" >2 h</text>
+<path d="M339.4,276.0 V217.5 Q339.4,214.5 342.4,214.5 H366.6 Q369.6,214.5 369.6,217.5 V276.0 Z" fill="#2a78d6"/>
+<path d="M371.6,276.0 V217.5 Q371.6,214.5 374.6,214.5 H398.8 Q401.8,214.5 401.8,217.5 V276.0 Z" fill="#eb6834"/>
+<text x="370.625" y="294" font-size="11" fill="#55534e" text-anchor="middle" font-weight="400" >3 h</text>
+<path d="M428.2,276.0 V247.1 Q428.2,244.1 431.2,244.1 H455.4 Q458.4,244.1 458.4,247.1 V276.0 Z" fill="#2a78d6"/>
+<path d="M460.4,276.0 V227.8 Q460.4,224.8 463.4,224.8 H487.6 Q490.6,224.8 490.6,227.8 V276.0 Z" fill="#eb6834"/>
+<text x="459.375" y="294" font-size="11" fill="#55534e" text-anchor="middle" font-weight="400" >4–6 h</text>
+<path d="M517.0,276.0 V253.6 Q517.0,250.6 520.0,250.6 H544.1 Q547.1,250.6 547.1,253.6 V276.0 Z" fill="#2a78d6"/>
+<path d="M549.1,276.0 V241.2 Q549.1,238.2 552.1,238.2 H576.3 Q579.3,238.2 579.3,241.2 V276.0 Z" fill="#eb6834"/>
+<text x="548.125" y="294" font-size="11" fill="#55534e" text-anchor="middle" font-weight="400" >7–12 h</text>
+<path d="M605.7,276.0 V252.6 Q605.7,249.6 608.7,249.6 H632.9 Q635.9,249.6 635.9,252.6 V276.0 Z" fill="#2a78d6"/>
+<path d="M637.9,276.0 V246.4 Q637.9,243.4 640.9,243.4 H665.0 Q668.0,243.4 668.0,246.4 V276.0 Z" fill="#eb6834"/>
+<text x="636.875" y="294" font-size="11" fill="#55534e" text-anchor="middle" font-weight="400" >13–24 h</text>
+<path d="M694.5,276.0 V256.0 Q694.5,253.0 697.5,253.0 H721.6 Q724.6,253.0 724.6,256.0 V276.0 Z" fill="#2a78d6"/>
+<path d="M726.6,276.0 V252.6 Q726.6,249.6 729.6,249.6 H753.8 Q756.8,249.6 756.8,252.6 V276.0 Z" fill="#eb6834"/>
+<text x="725.625" y="294" font-size="11" fill="#55534e" text-anchor="middle" font-weight="400" >&gt;24 h</text>
+<text x="415.0" y="316" font-size="12" fill="#55534e" text-anchor="middle" font-weight="400" >hours since the rain / snow stopped</text>
+<text x="89.2875" y="73.26999999999998" font-size="11" fill="#2a78d6" text-anchor="middle" font-weight="600" >5.7</text>
+<text x="475.4625" y="218.84333333333333" font-size="11" fill="#eb6834" text-anchor="middle" font-weight="600" >1.49</text>
+<text x="564.2125" y="232.23333333333332" font-size="11" fill="#eb6834" text-anchor="middle" font-weight="600" >1.10</text>
+<text x="444.2875" y="238.07" font-size="11" fill="#2a78d6" text-anchor="middle" font-weight="600" >0.93</text>
+<rect x="620" y="75" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="638" y="85" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >registered = low</text>
+<rect x="620" y="95" width="12" height="12" rx="3" fill="#eb6834"/>
+<text x="638" y="105" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >casual = low</text>
+<text x="26" y="346" font-size="12" fill="#8a877f" text-anchor="start" font-weight="400" >Registered: effect gone from 4 h on (lift &lt; 1). Casual: still above 1 at 4–6 h and 7–12 h. Same answer as the recovery curve.</text>
+</svg>

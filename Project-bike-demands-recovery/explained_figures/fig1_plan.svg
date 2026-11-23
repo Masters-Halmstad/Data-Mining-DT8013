@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="528" viewBox="0 0 800 528" role="img" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title>Project plan</title>
+<rect width="800" height="528" rx="12" fill="#fcfcfb"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a877f"/></marker></defs>
+<text x="26" y="34" font-size="16" fill="#2b2a27" text-anchor="start" font-weight="600" >The plan: from raw hours to &quot;how long until demand is back to normal&quot;</text>
+<text x="26" y="62" font-size="11" fill="#8a877f" text-anchor="start" font-weight="600" letter-spacing="1">PREPARE · task 1</text>
+<rect x="26" y="72" width="228" height="92" rx="8" fill="#ffffff" stroke="#c9c6be" stroke-width="1"/>
+<circle cx="48" cy="96" r="12" fill="#55534e"/>
+<text x="48" y="100.5" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600" >1</text>
+<text x="68" y="101" font-size="14" fill="#2b2a27" text-anchor="start" font-weight="600" >Clean  ✓ done</text>
+<text x="42" y="128" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >one row per hour, outages flagged,</text>
+<text x="42" y="146" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >UCI °C formula, seasons fixed</text>
+<line x1="258" y1="118.0" x2="292" y2="118.0" stroke="#8a877f" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="296" y="72" width="228" height="92" rx="8" fill="#ffffff" stroke="#c9c6be" stroke-width="1"/>
+<circle cx="318" cy="96" r="12" fill="#55534e"/>
+<text x="318" y="100.5" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600" >2</text>
+<text x="338" y="101" font-size="14" fill="#2b2a27" text-anchor="start" font-weight="600" >Detect anomalies</text>
+<text x="312" y="128" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >kNN + LOF on weather sensors</text>
+<text x="312" y="146" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >and on daily demand</text>
+<line x1="528" y1="118.0" x2="562" y2="118.0" stroke="#8a877f" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="566" y="72" width="228" height="92" rx="8" fill="#ffffff" stroke="#c9c6be" stroke-width="1"/>
+<circle cx="588" cy="96" r="12" fill="#55534e"/>
+<text x="588" y="100.5" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600" >3</text>
+<text x="608" y="101" font-size="14" fill="#2b2a27" text-anchor="start" font-weight="600" >Fix sensor faults</text>
+<text x="582" y="128" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >humidity 0 %, stuck atemp,</text>
+<text x="582" y="146" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >weathersit 4 → 3</text>
+<path d="M680.0,168 V180 H13 V266.0 H22" fill="none" stroke="#8a877f" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="26" y="210" font-size="11" fill="#8a877f" text-anchor="start" font-weight="600" letter-spacing="1">UNDERSTAND · tasks 2, 5, 3</text>
+<rect x="26" y="220" width="228" height="92" rx="8" fill="#ffffff" stroke="#c9c6be" stroke-width="1"/>
+<circle cx="48" cy="244" r="12" fill="#55534e"/>
+<text x="48" y="248.5" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600" >4</text>
+<text x="68" y="249" font-size="14" fill="#2b2a27" text-anchor="start" font-weight="600" >Describe</text>
+<text x="42" y="276" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >registered vs casual profiles,</text>
+<text x="42" y="294" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >weather effect</text>
+<line x1="258" y1="266.0" x2="292" y2="266.0" stroke="#8a877f" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="296" y="220" width="228" height="92" rx="8" fill="#ffffff" stroke="#2a78d6" stroke-width="1.6"/>
+<circle cx="318" cy="244" r="12" fill="#2a78d6"/>
+<text x="318" y="248.5" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600" >5</text>
+<text x="338" y="249" font-size="14" fill="#2b2a27" text-anchor="start" font-weight="600" >Features</text>
+<text x="312" y="276" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >clock: hours_after_rain</text>
+<text x="312" y="294" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >yardstick: normal (kNN)</text>
+<line x1="528" y1="266.0" x2="562" y2="266.0" stroke="#8a877f" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="566" y="220" width="228" height="92" rx="8" fill="#ffffff" stroke="#c9c6be" stroke-width="1"/>
+<circle cx="588" cy="244" r="12" fill="#55534e"/>
+<text x="588" y="248.5" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600" >6</text>
+<text x="608" y="249" font-size="14" fill="#2b2a27" text-anchor="start" font-weight="600" >PCA</text>
+<text x="582" y="276" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >shape of the 24-hour day</text>
+<text x="582" y="294" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >commuter vs leisure axis</text>
+<path d="M680.0,316 V328 H13 V414.0 H22" fill="none" stroke="#8a877f" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="26" y="358" font-size="11" fill="#8a877f" text-anchor="start" font-weight="600" letter-spacing="1">ANSWER · task 4</text>
+<rect x="26" y="368" width="228" height="92" rx="8" fill="#ffffff" stroke="#2a78d6" stroke-width="1.6"/>
+<circle cx="48" cy="392" r="12" fill="#2a78d6"/>
+<text x="48" y="396.5" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600" >7</text>
+<text x="68" y="397" font-size="14" fill="#2b2a27" text-anchor="start" font-weight="600" >Recovery curve</text>
+<text x="42" y="424" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >actual ÷ normal by hours</text>
+<text x="42" y="442" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >after the rain stopped</text>
+<line x1="258" y1="414.0" x2="292" y2="414.0" stroke="#8a877f" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="296" y="368" width="228" height="92" rx="8" fill="#ffffff" stroke="#c9c6be" stroke-width="1"/>
+<circle cx="318" cy="392" r="12" fill="#55534e"/>
+<text x="318" y="396.5" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600" >8</text>
+<text x="338" y="397" font-size="14" fill="#2b2a27" text-anchor="start" font-weight="600" >Lift check</text>
+<text x="312" y="424" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >support · confidence · lift</text>
+<text x="312" y="442" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >{after = h} ⇒ {low}</text>
+<line x1="528" y1="414.0" x2="562" y2="414.0" stroke="#8a877f" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="566" y="368" width="228" height="92" rx="8" fill="#ffffff" stroke="#c9c6be" stroke-width="1"/>
+<circle cx="588" cy="392" r="12" fill="#55534e"/>
+<text x="588" y="396.5" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600" >9</text>
+<text x="608" y="397" font-size="14" fill="#2b2a27" text-anchor="start" font-weight="600" >Business</text>
+<text x="582" y="424" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >rides lost after the rain,</text>
+<text x="582" y="442" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >recommendations</text>
+<text x="26" y="510" font-size="12" fill="#8a877f" text-anchor="start" font-weight="400" >Blue = the two ideas the whole project rests on: a recovery clock and a &quot;normal demand&quot; yardstick.</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="406" viewBox="0 0 800 406" role="img" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title>Anomaly detection</title>
+<rect width="800" height="406" rx="12" fill="#fcfcfb"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a877f"/></marker></defs>
+<text x="26" y="34" font-size="16" fill="#2b2a27" text-anchor="start" font-weight="600" >Anomaly detection: the same two detectors on two different inputs</text>
+<text x="26" y="64" font-size="13" fill="#2b2a27" text-anchor="start" font-weight="600" >A · Weather sensors</text>
+<rect x="26" y="74" width="244" height="112" rx="8" fill="#ffffff" stroke="#c9c6be" stroke-width="1"/>
+<text x="40" y="110" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >one row per day, real hours only:</text>
+<text x="40" y="130" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >how much each sensor moved (std),</text>
+<text x="40" y="150" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >feels-like gap, max wind, rain share</text>
+<line x1="274" y1="130.0" x2="300" y2="130.0" stroke="#8a877f" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="304" y="96" width="124" height="68" rx="8" fill="#ffffff" stroke="#2a78d6" stroke-width="1.6"/>
+<text x="366" y="125" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="600" >kNN + LOF</text>
+<text x="366" y="145" font-size="12" fill="#55534e" text-anchor="middle" font-weight="400" >rank all days</text>
+<line x1="432" y1="130.0" x2="458" y2="130.0" stroke="#8a877f" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="462" y="74" width="312" height="112" rx="8" fill="#ffffff" stroke="#c9c6be" stroke-width="1"/>
+<text x="476" y="94" font-size="12" fill="#8a877f" text-anchor="start" font-weight="400" >inspect the top 10 days:</text>
+<text x="476" y="116" font-size="12" fill="#b3261e" text-anchor="start" font-weight="600" >3 sensor faults → fix</text>
+<text x="488" y="135" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >humidity 0 %, atemp stuck on 2 days</text>
+<text x="476" y="154" font-size="12" fill="#2e7d32" text-anchor="start" font-weight="600" >7 real weather days → keep</text>
+<text x="488" y="173" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >Hurricane Irene, windy storm days</text>
+<text x="26" y="218" font-size="13" fill="#2b2a27" text-anchor="start" font-weight="600" >B · Daily demand</text>
+<rect x="26" y="228" width="244" height="112" rx="8" fill="#ffffff" stroke="#c9c6be" stroke-width="1"/>
+<text x="40" y="264" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >one row per day: registered and</text>
+<text x="40" y="284" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >casual rides ÷ median day of the</text>
+<text x="40" y="304" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >same year · month · day type (log)</text>
+<line x1="274" y1="284.0" x2="300" y2="284.0" stroke="#8a877f" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="304" y="250" width="124" height="68" rx="8" fill="#ffffff" stroke="#2a78d6" stroke-width="1.6"/>
+<text x="366" y="279" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="600" >kNN + LOF</text>
+<text x="366" y="299" font-size="12" fill="#55534e" text-anchor="middle" font-weight="400" >rank all days</text>
+<line x1="432" y1="284.0" x2="458" y2="284.0" stroke="#8a877f" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="462" y="228" width="312" height="112" rx="8" fill="#ffffff" stroke="#c9c6be" stroke-width="1"/>
+<text x="476" y="248" font-size="12" fill="#8a877f" text-anchor="start" font-weight="400" >inspect the top 15 days:</text>
+<text x="476" y="270" font-size="12" fill="#8a877f" text-anchor="start" font-weight="600" >Sandy shutdown → noise</text>
+<text x="488" y="289" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >already empty (outage flag)</text>
+<text x="476" y="308" font-size="12" fill="#2e7d32" text-anchor="start" font-weight="600" >storms, holidays, warm day → keep</text>
+<text x="488" y="327" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >Christmas week, day after Thanksgiving</text>
+<text x="26" y="366" font-size="12" fill="#8a877f" text-anchor="start" font-weight="400" >Reading rule: ONE sensor doing something impossible (flat all day, or 0) = fault · SEVERAL sensors changing together = real weather.</text>
+<text x="26" y="386" font-size="12" fill="#8a877f" text-anchor="start" font-weight="400" >Days, not hours: a stuck sensor is a collective anomaly. Real hours only: our own filled copies are flat and would look stuck.</text>
+</svg>

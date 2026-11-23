@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="330" viewBox="0 0 800 330" role="img" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title>Clock and yardstick example</title>
+<rect width="800" height="330" rx="12" fill="#fcfcfb"/>
+<text x="26" y="32" font-size="16" fill="#2b2a27" text-anchor="start" font-weight="600" >Clock + yardstick: Sunday 30 Sep 2012, registered riders</text>
+<text x="26" y="52" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >Bars = actual rides · black tick = normal (6 nearest clean days, same day type and hour) · label = % of normal</text>
+<rect x="420.0" y="70" width="116.66666666666667" height="196" fill="#e3eefb"/>
+<rect x="536.6666666666667" y="70" width="116.66666666666667" height="196" fill="#e3eefb"/>
+<text x="536.6666666666666" y="86" font-size="12" fill="#2a78d6" text-anchor="middle" font-weight="600" >raining</text>
+<line x1="70" y1="266.0" x2="770" y2="266.0" stroke="#e5e4e0" stroke-width="1"/>
+<text x="62" y="270.0" font-size="11" fill="#8a877f" text-anchor="end" font-weight="400" >0</text>
+<line x1="70" y1="226.8" x2="770" y2="226.8" stroke="#e5e4e0" stroke-width="1"/>
+<text x="62" y="230.8" font-size="11" fill="#8a877f" text-anchor="end" font-weight="400" >100</text>
+<line x1="70" y1="187.6" x2="770" y2="187.6" stroke="#e5e4e0" stroke-width="1"/>
+<text x="62" y="191.6" font-size="11" fill="#8a877f" text-anchor="end" font-weight="400" >200</text>
+<line x1="70" y1="148.4" x2="770" y2="148.4" stroke="#e5e4e0" stroke-width="1"/>
+<text x="62" y="152.4" font-size="11" fill="#8a877f" text-anchor="end" font-weight="400" >300</text>
+<line x1="70" y1="109.19999999999999" x2="770" y2="109.19999999999999" stroke="#e5e4e0" stroke-width="1"/>
+<text x="62" y="113.19999999999999" font-size="11" fill="#8a877f" text-anchor="end" font-weight="400" >400</text>
+<line x1="70" y1="70.0" x2="770" y2="70.0" stroke="#e5e4e0" stroke-width="1"/>
+<text x="62" y="74.0" font-size="11" fill="#8a877f" text-anchor="end" font-weight="400" >500</text>
+<path d="M105.33333333333334,266.0 V95.168 Q105.33333333333334,91.168 109.33333333333334,91.168 H147.33333333333334 Q151.33333333333334,91.168 151.33333333333334,95.168 V266.0 Z" fill="#2a78d6"/>
+<line x1="94.33333333333334" y1="109.39599999999999" x2="162.33333333333334" y2="109.39599999999999" stroke="#2b2a27" stroke-width="2.5"/>
+<text x="128.33333333333334" y="83.168" font-size="12" fill="#2b2a27" text-anchor="middle" font-weight="600" >112 %</text>
+<text x="128.33333333333334" y="286" font-size="12" fill="#55534e" text-anchor="middle" font-weight="400" >16:00</text>
+<path d="M222.0,266.0 V121.03999999999999 Q222.0,117.03999999999999 226.0,117.03999999999999 H264.0 Q268.0,117.03999999999999 268.0,121.03999999999999 V266.0 Z" fill="#2a78d6"/>
+<line x1="211.0" y1="109.39599999999999" x2="279.0" y2="109.39599999999999" stroke="#2b2a27" stroke-width="2.5"/>
+<text x="245.0" y="101.39599999999999" font-size="12" fill="#2b2a27" text-anchor="middle" font-weight="600" >95 %</text>
+<text x="245.0" y="286" font-size="12" fill="#55534e" text-anchor="middle" font-weight="400" >17:00</text>
+<path d="M338.6666666666667,266.0 V148.48000000000002 Q338.6666666666667,144.48000000000002 342.6666666666667,144.48000000000002 H380.6666666666667 Q384.6666666666667,144.48000000000002 384.6666666666667,148.48000000000002 V266.0 Z" fill="#2a78d6"/>
+<line x1="327.6666666666667" y1="127.89840000000001" x2="395.6666666666667" y2="127.89840000000001" stroke="#2b2a27" stroke-width="2.5"/>
+<text x="361.6666666666667" y="119.89840000000001" font-size="12" fill="#2b2a27" text-anchor="middle" font-weight="600" >88 %</text>
+<text x="361.6666666666667" y="286" font-size="12" fill="#55534e" text-anchor="middle" font-weight="400" >18:00</text>
+<path d="M455.3333333333333,266.0 V182.584 Q455.3333333333333,178.584 459.3333333333333,178.584 H497.3333333333333 Q501.3333333333333,178.584 501.3333333333333,182.584 V266.0 Z" fill="#2a78d6"/>
+<line x1="444.3333333333333" y1="153.8096" x2="512.3333333333333" y2="153.8096" stroke="#2b2a27" stroke-width="2.5"/>
+<text x="478.3333333333333" y="145.8096" font-size="12" fill="#2b2a27" text-anchor="middle" font-weight="600" >78 %</text>
+<text x="478.3333333333333" y="286" font-size="12" fill="#55534e" text-anchor="middle" font-weight="400" >19:00</text>
+<path d="M572.0,266.0 V206.10399999999998 Q572.0,202.10399999999998 576.0,202.10399999999998 H614.0 Q618.0,202.10399999999998 618.0,206.10399999999998 V266.0 Z" fill="#2a78d6"/>
+<line x1="561.0" y1="182.6216" x2="629.0" y2="182.6216" stroke="#2b2a27" stroke-width="2.5"/>
+<text x="595.0" y="174.6216" font-size="12" fill="#2b2a27" text-anchor="middle" font-weight="600" >77 %</text>
+<text x="595.0" y="286" font-size="12" fill="#55534e" text-anchor="middle" font-weight="400" >20:00</text>
+<path d="M688.6666666666666,266.0 V229.232 Q688.6666666666666,225.232 692.6666666666666,225.232 H730.6666666666666 Q734.6666666666666,225.232 734.6666666666666,229.232 V266.0 Z" fill="#2a78d6"/>
+<line x1="677.6666666666666" y1="204.26" x2="745.6666666666666" y2="204.26" stroke="#2b2a27" stroke-width="2.5"/>
+<text x="711.6666666666666" y="196.26" font-size="12" fill="#2b2a27" text-anchor="middle" font-weight="600" >66 %</text>
+<text x="711.6666666666666" y="286" font-size="12" fill="#55534e" text-anchor="middle" font-weight="400" >21:00</text>
+<text x="711.6666666666666" y="304" font-size="11" fill="#2a78d6" text-anchor="middle" font-weight="600" >first dry hour</text>
+<text x="70" y="318" font-size="12" fill="#8a877f" text-anchor="start" font-weight="400" >Even after the rain stops, demand is still at 66 % of normal: that leftover dip is the &quot;hangover&quot; we measure.</text>
+<line x1="70" y1="266.0" x2="770" y2="266.0" stroke="#c9c6be" stroke-width="1"/>
+</svg>

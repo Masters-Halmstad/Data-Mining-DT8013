@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="272" viewBox="0 0 800 272" role="img" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title>Why missing hours are filled first</title>
+<rect width="800" height="272" rx="12" fill="#fcfcfb"/>
+<text x="26" y="34" font-size="16" fill="#2b2a27" text-anchor="start" font-weight="600" >Why the missing hours had to be filled first</text>
+<text x="26" y="56" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >hours_after_rain counts ROWS. Example: rain stopped at midnight on 2011-01-12; 03:00 and 04:00 are missing in hour.csv.</text>
+<text x="185.0" y="90" font-size="12" fill="#8a877f" text-anchor="middle" font-weight="400" >23:00</text>
+<text x="255.0" y="90" font-size="12" fill="#8a877f" text-anchor="middle" font-weight="400" >00:00</text>
+<text x="325.0" y="90" font-size="12" fill="#8a877f" text-anchor="middle" font-weight="400" >01:00</text>
+<text x="395.0" y="90" font-size="12" fill="#8a877f" text-anchor="middle" font-weight="400" >02:00</text>
+<text x="465.0" y="90" font-size="12" fill="#8a877f" text-anchor="middle" font-weight="400" >03:00</text>
+<text x="535.0" y="90" font-size="12" fill="#8a877f" text-anchor="middle" font-weight="400" >04:00</text>
+<text x="605.0" y="90" font-size="12" fill="#8a877f" text-anchor="middle" font-weight="400" >05:00</text>
+<text x="26" y="120" font-size="13" fill="#2b2a27" text-anchor="start" font-weight="600" >Raw file</text>
+<text x="26" y="136" font-size="11" fill="#8a877f" text-anchor="start" font-weight="400" >counting rows</text>
+<rect x="153" y="102" width="64" height="40" rx="8" fill="#e3eefb" stroke="#b9d3f2" stroke-width="1"/>
+<text x="185.0" y="127" font-size="12" fill="#2a78d6" text-anchor="middle" font-weight="600" >rain</text>
+<rect x="223" y="102" width="64" height="40" rx="8" fill="#ffffff" stroke="#d8d6d0" stroke-width="1"/>
+<text x="255.0" y="128" font-size="14" fill="#2b2a27" text-anchor="middle" font-weight="400" >0 h</text>
+<rect x="293" y="102" width="64" height="40" rx="8" fill="#ffffff" stroke="#d8d6d0" stroke-width="1"/>
+<text x="325.0" y="128" font-size="14" fill="#2b2a27" text-anchor="middle" font-weight="400" >1 h</text>
+<rect x="363" y="102" width="64" height="40" rx="8" fill="#ffffff" stroke="#d8d6d0" stroke-width="1"/>
+<text x="395.0" y="128" font-size="14" fill="#2b2a27" text-anchor="middle" font-weight="400" >2 h</text>
+<rect x="433" y="102" width="64" height="40" rx="8" fill="#eeedea" stroke="#d8d6d0" stroke-width="1"/>
+<line x1="439" y1="136" x2="491" y2="108" stroke="#c9c6be" stroke-width="1"/>
+<text x="465.0" y="127" font-size="11" fill="#8a877f" text-anchor="middle" font-weight="400" >missing</text>
+<rect x="503" y="102" width="64" height="40" rx="8" fill="#eeedea" stroke="#d8d6d0" stroke-width="1"/>
+<line x1="509" y1="136" x2="561" y2="108" stroke="#c9c6be" stroke-width="1"/>
+<text x="535.0" y="127" font-size="11" fill="#8a877f" text-anchor="middle" font-weight="400" >missing</text>
+<rect x="573" y="102" width="64" height="40" rx="8" fill="#ffffff" stroke="#b3261e" stroke-width="1.8"/>
+<text x="605.0" y="128" font-size="14" fill="#b3261e" text-anchor="middle" font-weight="600" >3 h</text>
+<text x="26" y="178" font-size="13" fill="#2b2a27" text-anchor="start" font-weight="600" >Filled grid</text>
+<text x="26" y="194" font-size="11" fill="#8a877f" text-anchor="start" font-weight="400" >counting hours</text>
+<rect x="153" y="160" width="64" height="40" rx="8" fill="#e3eefb" stroke="#b9d3f2" stroke-width="1"/>
+<text x="185.0" y="185" font-size="12" fill="#2a78d6" text-anchor="middle" font-weight="600" >rain</text>
+<rect x="223" y="160" width="64" height="40" rx="8" fill="#ffffff" stroke="#d8d6d0" stroke-width="1"/>
+<text x="255.0" y="186" font-size="14" fill="#2b2a27" text-anchor="middle" font-weight="400" >0 h</text>
+<rect x="293" y="160" width="64" height="40" rx="8" fill="#ffffff" stroke="#d8d6d0" stroke-width="1"/>
+<text x="325.0" y="186" font-size="14" fill="#2b2a27" text-anchor="middle" font-weight="400" >1 h</text>
+<rect x="363" y="160" width="64" height="40" rx="8" fill="#ffffff" stroke="#d8d6d0" stroke-width="1"/>
+<text x="395.0" y="186" font-size="14" fill="#2b2a27" text-anchor="middle" font-weight="400" >2 h</text>
+<rect x="433" y="160" width="64" height="40" rx="8" fill="#ffffff" stroke="#d8d6d0" stroke-width="1"/>
+<text x="465.0" y="186" font-size="14" fill="#2b2a27" text-anchor="middle" font-weight="400" >3 h</text>
+<rect x="503" y="160" width="64" height="40" rx="8" fill="#ffffff" stroke="#d8d6d0" stroke-width="1"/>
+<text x="535.0" y="186" font-size="14" fill="#2b2a27" text-anchor="middle" font-weight="400" >4 h</text>
+<rect x="573" y="160" width="64" height="40" rx="8" fill="#ffffff" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="605.0" y="186" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="600" >5 h</text>
+<text x="652" y="118" font-size="12" fill="#b3261e" text-anchor="start" font-weight="600" >✗ says 3 h after rain</text>
+<text x="652" y="176" font-size="12" fill="#2e7d32" text-anchor="start" font-weight="600" >✓ really 5 h after rain</text>
+<text x="26" y="232" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >Without the fill: 1,876 hours get a wrong value (220 of them inside the 0–24 h window we study), off by up to 6 h.</text>
+<text x="26" y="252" font-size="12" fill="#55534e" text-anchor="start" font-weight="400" >Fill rule: short night gaps (1–2 h) → 0 rides (nobody wanted to ride) · gaps ≥ 5 h = storm shutdown → empty + outage flag.</text>
+</svg>
